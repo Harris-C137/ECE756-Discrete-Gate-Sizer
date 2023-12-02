@@ -8,7 +8,7 @@ do
 		bench=$name\_$mode
 	
 		echo "Running $bench..."
-		./sizerbin ~/ECE756/ECE756/ispd2012/ $bench $1 | tee $bench.out
+		./sizerbin ~/ECE756-Discrete-Gate-Sizer/benchmark $bench $1 | tee $bench.out
 	done
 
 done
